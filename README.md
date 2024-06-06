@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rami Media
+
+Rami Media is a sleek and modern media management dashboard built with Next.js.
+This project is a pure front-end application with no backend logic, making it a fun project to practice your front-end skills.
+Currently, it uses static files for data, but it can easily be extended into a full-stack application.
+
+### Features
+
+- **Dynamic Media Management:** Easily upload, categorize, and manage your media files.
+- **Responsive Design:** Ensures optimal viewing on all devices.
+- **Interactive Charts:** Visualize media statistics with interactive charts.
+- **Dark Mode Support:** Switch between light and dark themes effortlessly.
+
+### Packages Used
+
+- Next.js/React
+- TypeScript
+- Shadcn/ui
+- Tailwind CSS
+- Recharts
+- Lucide React
+- React Hook Form
+- Zod
+- Next Themes
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the Application
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Run The application
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open `http://localhost:3000` with your browser to see the result.
