@@ -1,4 +1,4 @@
-# Rami Media
+# Basic Admin App - NextJS 14
 
 Rami Media is a sleek and modern media management dashboard built with Next.js.
 This project is a pure front-end application with no backend logic, making it a fun project to practice your front-end skills.
@@ -40,3 +40,7 @@ npm run dev
 # Run The application
 
 Open `http://localhost:3000` with your browser to see the result.
+
+# Contribution
+
+Feel free to fork this project, add your features, and submit pull requests. Your contributions are always welcome!
