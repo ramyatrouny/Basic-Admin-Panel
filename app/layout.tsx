@@ -27,13 +27,7 @@ export default function RootLayout({
 					enableSystem={true}
 					storageKey='dashboard-theme'
 				>
-					<Navbar />
-					<div className='flex'>
-						<div className='h-[100vh] md:block hidden w-[350px]'>
-							<Sidebar />
-						</div>
-						<div className='p-5 w-full md:max-w-[1140px]'>{children}</div>
-					</div>
+					{children}
 					<Toaster />
 				</ThemeProvider>
 			</body>
